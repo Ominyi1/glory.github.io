@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+.img {
+    width: 90px;
+    height: 80px;
+    justify-content: center;
+    border-radius: 70px;
+    align-items: center;
+    justify-items: auto center;
+    margin: auto;
+    display: flex;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(16, 16, 48);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+    color: rgb(98, 141, 11);
+}
+
+footer {
+    position: static;
+    bottom: 90%;
+    width: 80%;
+    padding: 20px;
+    color: rgb(78, 11, 6);
+    font-size: smaller;
+    padding: 10px;
+    text-align: center;
+}
+.footer img{
+    position: flex;
+    padding-right: 60%;
+
+}
+p{
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    color: rgb(122, 13, 5);
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    word-spacing: 4px;
+    word-wrap: normal;
+}
+body {
+    padding: 60px;
+    box-sizing: content-box;
+    border-color: darkgreen;
+    background-image: url(SEEKERS2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 1640px;
+    max-width: 950px;
+    margin: 60px auto;
+    background-color: rgba(255, 250, 250, 0.555);
+    border-radius: 40px;
+}
+
+.href .a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration-color: darkgreen;
+    color: rgb(3, 68, 3)
+}
+.img .id{
+    white-space: 55px;
+    padding: 50px;
+    margin: 50px;
+    max-width: 20px;
+}
+.sidebar{
+    width: 200px;
+    padding: 10px;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+.sidebar ul li{
+    margin-bottom: 10px;
+}
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+.sidebar ul li a:hover{
+    color: #ff6347;
+}
+
+
+@keyframes blinking {
+    from {
+        transform: blinking(0deg);
+    }
+    to {
+        transform: blinking(500);
+    }
+}
+
+.blinking {
+    animation: blinking 500ms;
+}
